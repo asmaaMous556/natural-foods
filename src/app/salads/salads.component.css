@@ -1,0 +1,62 @@
+.salad-img {
+    width: 220px;
+    max-width: 100%;
+}
+
+.salad-title {
+    font-family: Merriweather, serif !important;
+    font-size: 25px;
+}
+
+.salad-price {
+    font-weight: 700;
+    font-size: 2.25rem;
+}
+
+.salad-desc {
+    font-size: 18px;
+}
+
+.orange-background {
+    background-color: #f0cf56;
+    background-image: url('/assets/natural foods/pexels-photo-7865977.jpeg');
+    max-width: 100%;
+    background-position: 100% 70%;
+    background-repeat: no-repeat;
+}
+
+.read-more--btn {
+    letter-spacing: 1px;
+    text-shadow: 0 0 0 rgb(0 0 0 / 0%);
+    font-size: 1.125rem;
+    font-weight: 700;
+    padding: 12px 84px 12px 83px;
+    background-color: #12c757;
+    color: #ffffff
+}
+
+.panel-header {
+    letter-spacing: 1px;
+    font-size: 4.5rem;
+    text-transform: none;
+    font-weight: 700;
+    margin: 0;
+    color: #ffffff
+}
+
+.panel-desc {
+    font-size: 18px;
+    color: #ffffff
+}
+
+.section-4-img {
+    background-image: url('/assets/natural foods/pexels-photo-7865977.jpeg');
+    max-width: 100%;
+    background-position: 50% 50%;
+}
+
+@media screen and (max-width:380px) {
+    .orange-background {
+        background-position: 47% 70%;
+    }
+}
