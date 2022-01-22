@@ -19,10 +19,16 @@
 
 .orange-background {
     background-color: #f0cf56;
+}
+
+.u-background-2 {
     background-image: url('/assets/natural foods/pexels-photo-7865977.jpeg');
     max-width: 100%;
-    background-position: 100% 70%;
+    background-position-y: 63%;
     background-repeat: no-repeat;
+    background-size: cover;
+    height: 100%;
+    width: 100%;
 }
 
 .read-more--btn {
@@ -55,8 +61,8 @@
     background-position: 50% 50%;
 }
 
-@media screen and (max-width:380px) {
-    .orange-background {
-        background-position: 47% 70%;
+@media screen and (max-width:480px) {
+    .u-background-2 {
+        height: 505px;
     }
 }

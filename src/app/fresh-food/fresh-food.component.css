@@ -1,0 +1,95 @@
+.green-circle {
+    background-color: #12C757;
+    border-radius: 50%;
+    width: 250px;
+    height: 250px;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    color: #ffffff;
+    text-align: center;
+}
+
+.label {
+    text-transform: uppercase;
+    font-size: 4.5rem;
+    font-weight: 700;
+    margin: 0 auto;
+}
+
+.mashroum-img {
+    background-image: url('/assets/natural foods/3351014.png');
+    background-repeat: no-repeat;
+    background-position: right;
+}
+
+.desc {
+    color: #b3b3b3;
+    font-size: 19px;
+    text-align: left;
+}
+
+.link {
+    color: black;
+    border-bottom: 1px solid #e5b837;
+}
+
+.salad-background {
+    background-image: url('/assets/natural foods/3351014.jpg');
+    background-repeat: no-repeat;
+    background-size: cover;
+    height: 750px;
+}
+
+.u-text-1 {
+    font-size: 4.5rem;
+    color: #29332d;
+    font-weight: 700;
+    margin: 60px auto 0;
+}
+
+.u-text-2 {
+    font-size: 1.125rem;
+}
+
+.u-text-3 {
+    font-size: 1.125rem;
+}
+
+.u-palette-3-base {
+    background-color: #f0cf56;
+}
+
+.read-more--btn {
+    letter-spacing: 1px;
+    text-shadow: 0 0 0 rgb(0 0 0 / 0%);
+    font-size: 1.125rem;
+    font-weight: 700;
+    background-color: #12c757;
+    color: #ffffff
+}
+
+.u-text-body-color {
+    color: #ffffff
+}
+
+.input-border {
+    border: 3px solid #12c757;
+}
+
+.u-black-80 {
+    background-color: #333333;
+}
+
+@media screen and (max-width:480px) {
+    .salad-background {
+        background-size: inherit;
+    }
+    .mashroum-img {
+        background: none;
+    }
+    .u-text-1 {
+        font-size: 2.5rem;
+    }
+}
