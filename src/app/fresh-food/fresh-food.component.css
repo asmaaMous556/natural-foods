@@ -82,10 +82,7 @@
     background-color: #333333;
 }
 
-@media screen and (max-width:480px) {
-    .salad-background {
-        background-size: inherit;
-    }
+@media screen and (max-width:820px) {
     .mashroum-img {
         background: none;
     }
