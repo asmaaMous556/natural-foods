@@ -58,11 +58,28 @@
     position: relative;
 }
 
-@media screen and (max-width:480px) {
+.img-u {
+    max-width: 100%;
+    border-radius: 20px;
+    object-fit: cover;
+    height: 380px;
+    width: 300px;
+}
+
+.u-text-1 {
+    font-weight: 700;
+    font-size: 4.5rem;
+    /* width: 802px; */
+}
+
+@media screen and (max-width:820px) {
     .pineable-img {
-        left: 59px;
-        top: 132px;
-        width: 300px;
-        height: 300px;
+        left: 48px;
+        top: 102px;
+        width: 260px;
+        height: 260px;
+    }
+    .green-circle {
+        height: 450px;
     }
 }
