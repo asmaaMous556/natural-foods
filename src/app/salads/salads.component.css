@@ -61,7 +61,7 @@
     background-position: 50% 50%;
 }
 
-@media screen and (max-width:480px) {
+@media screen and (max-width:540px) {
     .u-background-2 {
         height: 505px;
     }
